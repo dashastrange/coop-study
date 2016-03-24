@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First template - Calc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
+	<link href="calc_style.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="calc_action.js"></script>	
+ 
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-5 col-md-2 col-offset-md-5">
+    <form name="calc">
+    <div class="table-responsive">
+      <table class="table table-striped">
+      <input type="text" class="form-control" name="display" id="txt" placeholder="(*@*)"></input>
+        <tr>
+        <td><button input type="button" onclick="calc.display.value+='1'" class="btn btn-md">1</button></td>
+        <td><button input type="button" onclick="calc.display.value+='2'" class="btn btn-md">2</button></td>
+        <td><button input type="button" onclick="calc.display.value+='3'" class="btn btn-md">3</button></td>
+        </tr>
+
+        <tr>
+        <td><button input type="button" onclick="calc.display.value+='4'" class="btn btn-md">4</button></td>
+        <td><button input type="button" onclick="calc.display.value+='5'" class="btn btn-md">5</button></td>
+        <td><button input type="button" onclick="calc.display.value+='6'" class="btn btn-md">6</button></td>
+        </tr>
+
+        <tr>
+        <td><button input type="button" onclick="calc.display.value+='7'" class="btn btn-md">7</button></td>
+        <td><button input type="button" onclick="calc.display.value+='8'" class="btn btn-md">8</button></td>
+        <td><button input type="button" onclick="calc.display.value+='9'" class="btn btn-md">9</button></td>
+        </tr>
+
+        <tr>
+        <td><button input type="button" onclick="calc.display.value+='+'" class="btn btn-md btn-warning">+</button></td>
+        <td><button input type="button" onclick="calc.display.value+='0'" class="btn btn-md">0</button></td>
+        <td><button input type="button" onclick="calc.display.value+='-'" class="btn btn-md btn-warning">-</button></td>
+        </tr>
+
+        <tr>
+        <td><button input type="button" onclick="calc.display.value=' '" class="btn btn-md btn-danger">CE</button></td>
+        <td colspan="2"><button input type="button" class="btn btn-md btn-success btn-block">=</button></td>
+        </tr>
+
+
+
+
+
+
+      </table>
+      </div>
+    </form>
+    </div>
+
+
+  </div>
+
+
+
+
+</div>
+
+
+
+  </body>
+  </html>
